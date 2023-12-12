@@ -1,0 +1,30 @@
+<html lang="en">
+  <%- include('./partials/head.ejs') %>
+  <body>
+    <%- include('./partials/nav.ejs') %>
+    <div class="flex-container">
+        <div class="title">
+            <h1>Welcome Back!</h1>
+            <br>
+        </div>
+      <div class="form-container">
+        <h4>Please Login to Continue</h4>
+
+        <form action="/login" method="post">
+          <label for="username"> Username:</label>
+          <input type="text" name="username" id="username" required /><br />
+          <label for="password"> Password:</label>
+          <input type="password" name="password" id="password" required /><br />
+          <input type="submit" value="Login" class="btn" />
+        </form>
+      </div>
+
+        
+            <h3>Don't have an account?</h3>
+            <p>Sign up for free!</p>
+            <a href="/signup" id="signup-btn">Sign Up</a>
+    
+    <%- include('./partials/footer.ejs') %>
+  </body>
+  
+</html>

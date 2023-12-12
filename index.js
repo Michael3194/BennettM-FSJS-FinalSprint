@@ -4,7 +4,7 @@ const app = express();
 const methodOverride = require('method-override');
 const PORT = 3000;
 
-global.debug = true; // Set to true to see console logs for debugging
+global.DEBUG = true; // Set to true to see console logs for debugging
 
 // Set view engine to ejs
 app.set('view engine', 'ejs');
@@ -20,6 +20,12 @@ app.get('/', async (req, res) => {
   if (DEBUG) console.log('GET index route called');
   res.render('index');
 });
+
+const loginRouter = require('./routes/login');
+app.use('/login', loginRouter);
+
+const signupRouter = require('./routes/signup');
+app.use('/signup', signupRouter);
 
 // Set up the server
 app.listen(PORT, () => {
