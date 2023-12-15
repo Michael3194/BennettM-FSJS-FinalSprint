@@ -7,6 +7,13 @@
     </div>
     <div class="flex-container">
       <div class="form-container">
+        <% if (messages.length > 0) { %>
+        <div class="alert alert-error">
+          <% messages.forEach(function(message) { %>
+          <p><%= message %></p>
+          <% }); %>
+        </div>
+        <% } %>
         <h4>Register to gain access to search the database</h4>
         <form action="/signup" method="post">
           <label for="username"> Username:</label>

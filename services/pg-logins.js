@@ -15,7 +15,18 @@ const registerUser = async (username, email, password) => {
     if (DEBUG) console.log('user credentials added to logins table');
     return result.rows[0];
   } catch (err) {
-    console.log('Error in registerUser function in pg-logins.js');
+    if (err.code === '23505') {
+      // Unique constraint violation
+      // const field determines whether username or email is the duplicate
+      if (DEBUG)
+        console.log(
+          'Duplicate username or email error in registerUser function'
+        );
+      const field = err.detail.includes('uq_logins_username')
+        ? 'username'
+        : 'email';
+      throw new Error(`User with the given ${field} already exists`);
+    } else console.log('Error in registerUser function in pg-logins.js');
     throw err;
   }
 };

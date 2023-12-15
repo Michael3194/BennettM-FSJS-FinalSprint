@@ -95,3 +95,11 @@ form {
   color: white;
   font-weight: bold;
 }
+
+.alert {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #000;
+  font-weight: 700;
+  color: red;
+}

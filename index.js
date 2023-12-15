@@ -1,8 +1,10 @@
 // Imports and set up the express app
 const express = require('express');
-const app = express();
 const methodOverride = require('method-override');
+const session = require('express-session');
+
 const PORT = 3000;
+const app = express();
 
 global.DEBUG = true; // Set to true to see console logs for debugging
 
@@ -14,6 +16,17 @@ app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 // Set up method override so we can use other HTTP methods
 app.use(methodOverride('_method'));
+
+app.use(
+  session({
+    secret: 'secret',
+    resave: false,
+    saveUninitialized: true,
+  })
+);
+
+const flash = require('connect-flash');
+app.use(flash());
 
 // Home route - renders index.ejs
 app.get('/', async (req, res) => {
