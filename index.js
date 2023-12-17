@@ -31,7 +31,7 @@ app.use(flash());
 // Home route - renders index.ejs
 app.get('/', async (req, res) => {
   if (DEBUG) console.log('GET index route called');
-  res.render('index');
+  res.render('index', { message: req.flash('success') });
 });
 
 const loginRouter = require('./routes/login');
