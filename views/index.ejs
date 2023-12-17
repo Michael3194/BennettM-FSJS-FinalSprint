@@ -5,6 +5,9 @@
     <div class="title">
       <h1>Index Page</h1>
       <h2>Welcome to the Index Page</h2>
+      <% if (message) { %>
+      <p><%= message %></p>
+      <% } %>
     </div>
     <div class="main-container"></div>
     <%- include('partials/footer.ejs') %>

@@ -1,6 +1,7 @@
 const bcrypt = require('bcrypt');
 const dal = require('./pg-database');
 
+// registerUser() - adds a new user to the logins table
 const registerUser = async (username, email, password) => {
   if (DEBUG) console.log('registerUser function called');
   const sql =
@@ -31,4 +32,26 @@ const registerUser = async (username, email, password) => {
   }
 };
 
-module.exports = { registerUser };
+const getUserByUsername = async (username) => {
+  if (DEBUG) console.log('getUserByUsername function called');
+
+  // SQL query to get the user with the given username
+  const sql = 'SELECT * FROM logins WHERE username = $1;';
+
+  try {
+    const result = await dal.query(sql, [username]);
+
+    if (result.rows.length > 0) {
+      if (DEBUG) console.log('User found');
+      return result.rows[0];
+    } else {
+      if (DEBUG) console.log('User not found');
+      return null;
+    }
+  } catch (error) {
+    if (DEBUG) console.log('Error in getUserByUsername function');
+    return null;
+  }
+};
+
+module.exports = { registerUser, getUserByUsername };
