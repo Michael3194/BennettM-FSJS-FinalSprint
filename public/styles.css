@@ -22,7 +22,7 @@ nav {
   background-color: #4a64a1;
   margin-bottom: 20px;
   padding-left: 10px;
-  height: 40px;
+  min-height: 40px;
   align-items: center;
   gap: 10px;
   border: 1px solid #000;
@@ -102,4 +102,16 @@ form {
   border: 1px solid #000;
   font-weight: 700;
   color: red;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  margin-top: 100px;
+}
+
+.flash-welcomeback {
+  margin-top: 100px;
 }
