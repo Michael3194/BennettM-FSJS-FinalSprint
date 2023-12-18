@@ -4,7 +4,12 @@
     <%- include('./partials/nav.ejs') %>
     <div class="flex-container">
         <div class="title">
-            <h1>Welcome Back!</h1>
+            <h1>Welcome!</h1>
+            <% if (messages.error) { %>
+            <div class="alert alert-error">
+              <p><%= messages.error %></p>
+            </div>
+            <% } %>
             <br>
         </div>
       <div class="form-container">
