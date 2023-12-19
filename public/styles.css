@@ -4,13 +4,14 @@
   box-sizing: border-box;
 }
 
+html,
 body {
   margin: 10px;
   height: 100%;
   display: flex;
   flex-direction: column;
   background-color: rgb(229, 229, 229);
-  min-height: 100vh;
+  /* min-height: 100%; */
 }
 
 .title {
@@ -43,7 +44,7 @@ footer {
   justify-content: space-between;
   padding-left: 10px;
   padding-right: 10px;
-  width: 97%;
+  width: 100%;
   align-items: center;
   border: 1px solid #000;
   box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.75);
@@ -107,8 +108,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
-  margin-top: 100px;
+  flex-grow: 1;
 }
 
 .flash-welcomeback {
@@ -124,5 +124,5 @@ form {
 }
 
 .search-results {
-  padding-bottom: 100px;
+  margin-bottom: 20px;
 }
