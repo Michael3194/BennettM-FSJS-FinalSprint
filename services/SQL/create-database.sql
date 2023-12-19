@@ -1,0 +1,1 @@
+CREATE DATABASE fsjs_final_sprint;
