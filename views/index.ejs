@@ -19,6 +19,14 @@
       </div>
       <% } else { %>
       <!-- Display search functionality-->
+      <div class="search-form">
+        <form action="/search" method="GET">
+          <label for="search-string"><h3>Enter your search string:</h3></label>
+          <br />
+          <input type="text" id="search-string" name="searchString" /> <br />
+          <input type="submit" value="Search" />
+        </form>
+      </div>
       <% } %>
     </div>
     <%- include('partials/footer.ejs') %>

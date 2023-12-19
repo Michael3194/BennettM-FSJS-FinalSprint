@@ -115,3 +115,11 @@ form {
 .flash-welcomeback {
   margin-top: 100px;
 }
+
+.search-form input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #000;
+}

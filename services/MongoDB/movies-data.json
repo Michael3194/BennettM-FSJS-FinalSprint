@@ -1,0 +1,902 @@
+[
+  {
+    "movie_id": 1,
+    "title": "Hotel for Dogs",
+    "genre": "Adventure|Children|Comedy",
+    "description": "An adventure about two kids who secretly shelter dogs in an abandoned hotel."
+  },
+  {
+    "movie_id": 2,
+    "title": "Raja",
+    "genre": "Drama",
+    "description": "A heartfelt drama that delves into the life and challenges of a character named Raja."
+  },
+  {
+    "movie_id": 3,
+    "title": "Gymnast, The",
+    "genre": "Drama|Romance",
+    "description": "A story of passion and romance in the competitive world of gymnastics."
+  },
+  {
+    "movie_id": 4,
+    "title": "Terror Beneath the Sea, The (Kaitei daisensô)",
+    "genre": "Action|Sci-Fi",
+    "description": "A sci-fi adventure involving mysterious creatures in the depths of the ocean."
+  },
+  {
+    "movie_id": 5,
+    "title": "Tomorrow Never Dies",
+    "genre": "Action|Adventure|Thriller",
+    "description": "An action-packed spy thriller with high-stakes global intrigue."
+  },
+  {
+    "movie_id": 6,
+    "title": "Assassination (Ansatsu)",
+    "genre": "Action|Drama",
+    "description": "A gripping tale of political conspiracy and an assassination plot."
+  },
+  {
+    "movie_id": 7,
+    "title": "September",
+    "genre": "Drama",
+    "description": "A drama filled with emotional twists and turns set in the autumn month."
+  },
+  {
+    "movie_id": 8,
+    "title": "Carrie",
+    "genre": "Drama|Horror",
+    "description": "A chilling horror story about a young girl with telekinetic powers."
+  },
+  {
+    "movie_id": 9,
+    "title": "Ninja Assassin",
+    "genre": "Action|Crime|Drama|Thriller",
+    "description": "A fast-paced thriller about a ninja confronting a dark criminal world."
+  },
+  {
+    "movie_id": 10,
+    "title": "Umbrellas of Cherbourg, The (Parapluies de Cherbourg, Les)",
+    "genre": "Drama|Musical|Romance",
+    "description": "A visually stunning musical set in Cherbourg, exploring young love."
+  },
+  {
+    "movie_id": 11,
+    "title": "Camille Claudel 1915",
+    "genre": "Drama",
+    "description": "A biographical drama about the life and struggles of artist Camille Claudel."
+  },
+  {
+    "movie_id": 12,
+    "title": "Hellraiser: Hellseeker",
+    "genre": "Horror",
+    "description": "A horror film delving into a world of nightmares and dark fantasies."
+  },
+  {
+    "movie_id": 13,
+    "title": "History of Future Folk, The",
+    "genre": "Adventure|Comedy|Musical|Sci-Fi",
+    "description": "A sci-fi comedy about musicians from the future navigating Earth."
+  },
+  {
+    "movie_id": 14,
+    "title": "Let the Good Times Roll",
+    "genre": "Documentary",
+    "description": "A nostalgic documentary celebrating the early years of rock and roll."
+  },
+  {
+    "movie_id": 15,
+    "title": "Crossing Over",
+    "genre": "Drama",
+    "description": "An intimate look at the lives and stories of immigrants."
+  },
+  {
+    "movie_id": 16,
+    "title": "Why Be Good?",
+    "genre": "Comedy|Romance",
+    "description": "A lighthearted romantic comedy set in the roaring 20s."
+  },
+  {
+    "movie_id": 17,
+    "title": "Alphaville (Alphaville, une étrange aventure de Lemmy Caution)",
+    "genre": "Drama|Mystery|Romance|Sci-Fi|Thriller",
+    "description": "A futuristic thriller blending mystery and romance in a dystopian city."
+  },
+  {
+    "movie_id": 18,
+    "title": "Revenge of the Green Dragons",
+    "genre": "Action|Crime|Drama",
+    "description": "An action-packed drama about two brothers in New York's underworld."
+  },
+  {
+    "movie_id": 19,
+    "title": "Sands of Iwo Jima",
+    "genre": "Action|Drama|Romance|War",
+    "description": "A war drama portraying the Battle of Iwo Jima and its heroes."
+  },
+  {
+    "movie_id": 20,
+    "title": "Twice Upon a Yesterday (a.k.a. Man with Rain in His Shoes, The)",
+    "genre": "Comedy|Drama|Romance",
+    "description": "A romantic comedy about getting a second chance to fix past mistakes."
+  },
+  {
+    "movie_id": 21,
+    "title": "Whity",
+    "genre": "Drama|Western",
+    "description": "A complex tale set in the American West, focusing on a multiracial family's dynamics."
+  },
+  {
+    "movie_id": 22,
+    "title": "Last Sunset, The",
+    "genre": "Western",
+    "description": "A gripping Western featuring a showdown between a lawman and a fugitive."
+  },
+  {
+    "movie_id": 23,
+    "title": "Fallen Art (Sztuka spadania)",
+    "genre": "Action|Animation|Comedy",
+    "description": "An animated tale blending action and comedy with a unique artistic style."
+  },
+  {
+    "movie_id": 24,
+    "title": "Three Marias, The (Três Marias, As)",
+    "genre": "Drama",
+    "description": "A dramatic story of three women bound by a shared quest for justice."
+  },
+  {
+    "movie_id": 25,
+    "title": "Getting Any? (Minnâ-yatteruka!)",
+    "genre": "Comedy",
+    "description": "A comedic journey of a man's desperate attempts to understand love and relationships."
+  },
+  {
+    "movie_id": 26,
+    "title": "Salla: Selling the Silence",
+    "genre": "Documentary",
+    "description": "An insightful documentary exploring the concept and value of silence."
+  },
+  {
+    "movie_id": 27,
+    "title": "Windfall",
+    "genre": "Documentary",
+    "description": "A documentary delving into the complexities and controversies of wind energy."
+  },
+  {
+    "movie_id": 28,
+    "title": "Sisterhood of the Traveling Pants, The",
+    "genre": "Adventure|Comedy|Drama",
+    "description": "A heartwarming story about friendship and life changes, symbolized by a pair of jeans."
+  },
+  {
+    "movie_id": 29,
+    "title": "Super Rich: The Greed Game",
+    "genre": "Documentary",
+    "description": "An exploration into the lives and motivations of the super-wealthy."
+  },
+  {
+    "movie_id": 30,
+    "title": "Touch the Top of the World",
+    "genre": "Drama",
+    "description": "An inspiring drama about overcoming physical limitations to achieve extraordinary goals."
+  },
+  {
+    "movie_id": 31,
+    "title": "10th & Wolf",
+    "genre": "Crime|Drama|Thriller",
+    "description": "A gritty thriller set in the underworld of Philadelphia."
+  },
+  {
+    "movie_id": 32,
+    "title": "Lupin III: The Castle Of Cagliostro",
+    "genre": "Action|Adventure|Animation|Comedy|Crime|Mystery",
+    "description": "An animated adventure of a master thief uncovering a royal conspiracy."
+  },
+  {
+    "movie_id": 33,
+    "title": "Lap Dance",
+    "genre": "Drama",
+    "description": "A dramatic tale of a woman's journey into the world of exotic dancing to support her family."
+  },
+  {
+    "movie_id": 34,
+    "title": "Air Guitar Nation",
+    "genre": "Comedy|Documentary|Musical",
+    "description": "A humorous documentary exploring the competitive world of air guitar championships."
+  },
+  {
+    "movie_id": 35,
+    "title": "Naked Lunch",
+    "genre": "Drama|Fantasy|Mystery|Sci-Fi",
+    "description": "A surreal journey through a writer's hallucinations and bizarre experiences."
+  },
+  {
+    "movie_id": 36,
+    "title": "Novena, The (La neuvaine)",
+    "genre": "Drama",
+    "description": "A powerful drama about faith, healing, and unexpected friendship."
+  },
+  {
+    "movie_id": 37,
+    "title": "The Case of the Scorpion's Tail",
+    "genre": "Mystery|Thriller",
+    "description": "A thrilling mystery involving a deadly inheritance and a series of murders."
+  },
+  {
+    "movie_id": 38,
+    "title": "Born to Dance",
+    "genre": "Comedy|Musical",
+    "description": "A lively musical about aspiring dancers chasing their dreams."
+  },
+  {
+    "movie_id": 39,
+    "title": "Boys from Brazil, The",
+    "genre": "Action|Mystery|Thriller",
+    "description": "A thrilling tale of a Nazi hunter uncovering a sinister plot in South America."
+  },
+  {
+    "movie_id": 40,
+    "title": "Captain's Paradise, The",
+    "genre": "Comedy",
+    "description": "A comedic story of a ship captain juggling relationships in two ports."
+  },
+  {
+    "movie_id": 41,
+    "title": "Stations of the Cross",
+    "genre": "Drama",
+    "description": "A dramatic portrayal of a young girl's religious devotion and struggle."
+  },
+  {
+    "movie_id": 42,
+    "title": "House of Wax",
+    "genre": "Horror|Thriller",
+    "description": "A chilling horror about a group of friends trapped in a sinister wax museum."
+  },
+  {
+    "movie_id": 43,
+    "title": "Puppet Master II",
+    "genre": "Horror|Sci-Fi|Thriller",
+    "description": "A horror sequel with evil puppets coming to life."
+  },
+  {
+    "movie_id": 44,
+    "title": "Sweet Liberty",
+    "genre": "Comedy",
+    "description": "A light-hearted comedy about the chaotic making of a historical film."
+  },
+  {
+    "movie_id": 45,
+    "title": "That Lady in Ermine",
+    "genre": "Comedy|Fantasy|Musical|Romance",
+    "description": "A romantic comedy mixed with fantasy and musical elements."
+  },
+  {
+    "movie_id": 46,
+    "title": "Now and Forever",
+    "genre": "Drama|Romance",
+    "description": "A timeless romance drama about enduring love through hardships."
+  },
+  {
+    "movie_id": 47,
+    "title": "Volcano High (Whasango)",
+    "genre": "Action|Comedy",
+    "description": "A high-energy action comedy set in a school with supernatural events."
+  },
+  {
+    "movie_id": 48,
+    "title": "Christmas on Mars",
+    "genre": "Sci-Fi",
+    "description": "A sci-fi adventure unfolding the mysteries of Mars during Christmas."
+  },
+  {
+    "movie_id": 49,
+    "title": "God's Pocket",
+    "genre": "Drama",
+    "description": "A gripping drama about the dark secrets of a blue-collar neighborhood."
+  },
+  {
+    "movie_id": 50,
+    "title": "Last Laugh, The (Letzte Mann, Der)",
+    "genre": "Drama",
+    "description": "A classic drama depicting the fall and redemption of a proud doorman."
+  },
+  {
+    "movie_id": 51,
+    "title": "Verlorene, Der (Lost One, The)",
+    "genre": "Crime|Drama|Thriller",
+    "description": "A crime thriller about a man confronting his war-time past."
+  },
+  {
+    "movie_id": 52,
+    "title": "Aliens of the Deep",
+    "genre": "Documentary|IMAX",
+    "description": "A visually stunning documentary exploring the depths of Earth's oceans."
+  },
+  {
+    "movie_id": 53,
+    "title": "Subject Two",
+    "genre": "Drama|Thriller",
+    "description": "A thrilling drama about a medical student involved in ethically dubious experiments."
+  },
+  {
+    "movie_id": 54,
+    "title": "Out of Bounds",
+    "genre": "Drama",
+    "description": "A drama about a young man's struggle to escape his troubled urban life."
+  },
+  {
+    "movie_id": 55,
+    "title": "Eragon",
+    "genre": "Action|Adventure|Fantasy",
+    "description": "A fantastical adventure of a young farm boy who discovers a dragon's egg."
+  },
+  {
+    "movie_id": 56,
+    "title": "Fire Within, The (Feu follet, Le)",
+    "genre": "Drama",
+    "description": "An intense drama about a man grappling with existential crises."
+  },
+  {
+    "movie_id": 57,
+    "title": "Jackboots on Whitehall",
+    "genre": "Animation|Comedy|Sci-Fi|War",
+    "description": "An animated comedy spoofing WWII with an alternate history twist."
+  },
+  {
+    "movie_id": 58,
+    "title": "Devil Hunter (El caníbal)",
+    "genre": "Horror",
+    "description": "A horror adventure set in a jungle with a terrifying cannibal."
+  },
+  {
+    "movie_id": 59,
+    "title": "How to Lose Friends & Alienate People",
+    "genre": "Comedy",
+    "description": "A comedy about a bumbling journalist trying to fit into the high-profile world of media."
+  },
+  {
+    "movie_id": 60,
+    "title": "Date and Switch",
+    "genre": "Comedy",
+    "description": "A light-hearted comedy about two friends dealing with unexpected romantic situations."
+  },
+  {
+    "movie_id": 61,
+    "title": "One Hour with You",
+    "genre": "Comedy|Musical|Romance",
+    "description": "A musical romance filled with comedic misunderstandings and affairs."
+  },
+  {
+    "movie_id": 62,
+    "title": "Sum of All Fears, The",
+    "genre": "Drama|Thriller",
+    "description": "A political thriller about a nuclear crisis threatening world peace."
+  },
+  {
+    "movie_id": 63,
+    "title": "Dominick and Eugene",
+    "genre": "Drama",
+    "description": "A heartwarming story of two brothers and their unbreakable bond."
+  },
+  {
+    "movie_id": 64,
+    "title": "Kummeli Alivuokralainen",
+    "genre": "Comedy",
+    "description": "A Finnish comedy about the hilarious antics of quirky tenants."
+  },
+  {
+    "movie_id": 65,
+    "title": "Rebecca",
+    "genre": "Drama|Mystery|Romance|Thriller",
+    "description": "A romantic thriller about a young bride haunted by her husband's mysterious past."
+  },
+  {
+    "movie_id": 66,
+    "title": "Children of the Secret State",
+    "genre": "Documentary",
+    "description": "A documentary exposing the harsh realities of life in North Korea."
+  },
+  {
+    "movie_id": 67,
+    "title": "Godfather, The",
+    "genre": "Crime|Drama",
+    "description": "An epic crime drama about a powerful mafia family and their complex dynamics."
+  },
+  {
+    "movie_id": 68,
+    "title": "Panic Button",
+    "genre": "Horror|Thriller",
+    "description": "A horror-thriller about a deadly game of survival in a remote location."
+  },
+  {
+    "movie_id": 69,
+    "title": "Drive Thru",
+    "genre": "Comedy|Horror",
+    "description": "A horror-comedy set in a fast-food restaurant with a murderous mascot."
+  },
+  {
+    "movie_id": 70,
+    "title": "Lady Chatterley's Lover",
+    "genre": "Drama|Romance",
+    "description": "A romantic drama about an aristocratic woman's affair with a gamekeeper."
+  },
+  {
+    "movie_id": 71,
+    "title": "Malice",
+    "genre": "Thriller",
+    "description": "A suspenseful thriller about a woman entangled in a web of deceit and danger."
+  },
+  {
+    "movie_id": 72,
+    "title": "Prime of Miss Jean Brodie, The",
+    "genre": "Drama",
+    "description": "A drama about an unconventional teacher influencing her young students."
+  },
+  {
+    "movie_id": 73,
+    "title": "The Emperor's Club",
+    "genre": "Drama",
+    "description": "A thought-provoking drama about an inspiring teacher and his students."
+  },
+  {
+    "movie_id": 74,
+    "title": "Lost Patrol, The",
+    "genre": "Adventure|Drama|War",
+    "description": "A war drama about a British patrol lost in the Mesopotamian desert."
+  },
+  {
+    "movie_id": 75,
+    "title": "Quatsch und die Nasenbärbande",
+    "genre": "Children",
+    "description": "A children's adventure about a group of kids and a mischievous raccoon."
+  },
+  {
+    "movie_id": 76,
+    "title": "Swell Season, The",
+    "genre": "Documentary|Romance",
+    "description": "A documentary about the romance and music of a folk duo."
+  },
+  {
+    "movie_id": 77,
+    "title": "Funeral Parade of Roses (Bara no sôretsu)",
+    "genre": "Drama",
+    "description": "An avant-garde drama exploring the underground scene in Tokyo."
+  },
+  {
+    "movie_id": 78,
+    "title": "Bigamist, The",
+    "genre": "Drama",
+    "description": "A drama about a man leading a double life with two families."
+  },
+  {
+    "movie_id": 79,
+    "title": "Banklady",
+    "genre": "Action|Crime|Drama|Romance",
+    "description": "A romantic drama about Germany's first female bank robber."
+  },
+  {
+    "movie_id": 80,
+    "title": "Transamerica",
+    "genre": "Adventure|Comedy|Drama",
+    "description": "A road-trip adventure about a trans woman discovering her long-lost son."
+  },
+  {
+    "movie_id": 81,
+    "title": "Last Days of Pompeii, The",
+    "genre": "Adventure|Drama",
+    "description": "A historical drama set in the final days before the eruption of Mount Vesuvius."
+  },
+  {
+    "movie_id": 82,
+    "title": "Gone Baby Gone",
+    "genre": "Crime|Drama|Mystery",
+    "description": "A crime drama about two detectives investigating a child's abduction."
+  },
+  {
+    "movie_id": 83,
+    "title": "Nobody Knows Anybody (Nadie conoce a nadie)",
+    "genre": "Romance|Thriller",
+    "description": "A thriller about a writer entangled in a dangerous game in Seville."
+  },
+  {
+    "movie_id": 84,
+    "title": "Selfish Giant, The",
+    "genre": "Drama",
+    "description": "A powerful drama about two boys' friendship in a tough neighborhood."
+  },
+  {
+    "movie_id": 85,
+    "title": "Blossoms in the Dust",
+    "genre": "Drama",
+    "description": "A historical drama about a woman's fight against child exploitation."
+  },
+  {
+    "movie_id": 86,
+    "title": "Raincoat",
+    "genre": "Drama|Romance",
+    "description": "A romantic drama about former lovers reuniting on a rainy day."
+  },
+  {
+    "movie_id": 87,
+    "title": "Dark Corner, The",
+    "genre": "Crime|Drama|Film-Noir",
+    "description": "A classic film-noir involving a private detective in a web of deceit."
+  },
+  {
+    "movie_id": 88,
+    "title": "Walk in the Sun, A",
+    "genre": "War",
+    "description": "A war movie depicting the experiences of American infantrymen in Italy."
+  },
+  {
+    "movie_id": 89,
+    "title": "One Step Ahead of My Shadow",
+    "genre": "(no genres listed)",
+    "description": "A mysterious tale where details are as elusive as a shadow."
+  },
+  {
+    "movie_id": 90,
+    "title": "Arthur and the Invisibles",
+    "genre": "Action|Children|Fantasy",
+    "description": "A children's fantasy adventure in a magical miniature world."
+  },
+  {
+    "movie_id": 91,
+    "title": "Jumbo (Billy Rose's Jumbo)",
+    "genre": "Comedy|Musical|Romance",
+    "description": "A musical romance set in the vibrant backdrop of a circus."
+  },
+  {
+    "movie_id": 92,
+    "title": "Mothman Prophecies, The",
+    "genre": "Drama|Fantasy|Horror|Mystery|Thriller",
+    "description": "A supernatural thriller about a journalist investigating strange occurrences."
+  },
+  {
+    "movie_id": 93,
+    "title": "While She Was Out",
+    "genre": "Thriller",
+    "description": "A suspenseful thriller about a woman fighting for survival in a dangerous night."
+  },
+  {
+    "movie_id": 94,
+    "title": "Escape Me Never",
+    "genre": "Drama",
+    "description": "A poignant drama about love and loyalty set against a challenging backdrop."
+  },
+  {
+    "movie_id": 95,
+    "title": "Looking for Richard",
+    "genre": "Documentary|Drama",
+    "description": "A documentary exploring the complexities of staging a Shakespearean play."
+  },
+  {
+    "movie_id": 96,
+    "title": "Bachelor Party Vegas",
+    "genre": "Adventure|Comedy",
+    "description": "A wild comedy about a bachelor party that takes unexpected turns in Vegas."
+  },
+  {
+    "movie_id": 97,
+    "title": "Pact, The",
+    "genre": "Horror|Mystery|Thriller",
+    "description": "A chilling horror where a pact leads to mysterious and terrifying events."
+  },
+  {
+    "movie_id": 98,
+    "title": "Waiting to Exhale",
+    "genre": "Comedy|Drama|Romance",
+    "description": "A heartwarming tale of friendship and love challenges among a group of women."
+  },
+  {
+    "movie_id": 99,
+    "title": "No Greater Love",
+    "genre": "Drama|Romance",
+    "description": "A romantic drama exploring the depths and sacrifices of true love."
+  },
+  {
+    "movie_id": 100,
+    "title": "Hidden Agenda",
+    "genre": "Drama|Thriller",
+    "description": "A political thriller uncovering a conspiracy with unexpected twists."
+  },
+  {
+    "movie_id": 101,
+    "title": "Dance Party, USA",
+    "genre": "Drama",
+    "description": "A coming-of-age drama set against the backdrop of a dance party."
+  },
+  {
+    "movie_id": 102,
+    "title": "Simone (S1m0ne)",
+    "genre": "Comedy|Drama|Fantasy|Sci-Fi",
+    "description": "A satirical sci-fi about a director who digitally creates an actress."
+  },
+  {
+    "movie_id": 103,
+    "title": "In a Year with 13 Moons (In einem Jahr mit 13 Monden)",
+    "genre": "Drama",
+    "description": "An emotional journey of a transgender woman navigating life's challenges."
+  },
+  {
+    "movie_id": 104,
+    "title": "Accidental Spy, The (Dak miu mai shing)",
+    "genre": "Action|Comedy|Thriller",
+    "description": "An action-comedy about an ordinary man unwittingly caught in a spy game."
+  },
+  {
+    "movie_id": 105,
+    "title": "Chinaman (Kinamand)",
+    "genre": "Drama",
+    "description": "A drama about cultural encounters and unexpected connections."
+  },
+  {
+    "movie_id": 106,
+    "title": "This Is Not a Film (In film nist)",
+    "genre": "Documentary",
+    "description": "A unique documentary capturing the life of a filmmaker under house arrest."
+  },
+  {
+    "movie_id": 107,
+    "title": "Colorado Territory",
+    "genre": "Western",
+    "description": "A classic Western tale of outlaws and heists in the Colorado wilderness."
+  },
+  {
+    "movie_id": 108,
+    "title": "Pumpkin",
+    "genre": "Comedy|Drama|Romance",
+    "description": "A quirky romantic comedy about an unconventional love story."
+  },
+  {
+    "movie_id": 109,
+    "title": "Knucklehead",
+    "genre": "Comedy|Drama",
+    "description": "A heartwarming comedy-drama about an underdog facing life's challenges."
+  },
+  {
+    "movie_id": 110,
+    "title": "The Shadow of the Eagle",
+    "genre": "Crime|Drama|Mystery|Thriller",
+    "description": "A gripping thriller involving crime, mystery, and dark secrets."
+  },
+  {
+    "movie_id": 111,
+    "title": "Fall Time",
+    "genre": "Drama",
+    "description": "A drama about friends who get entangled in a dangerous situation during fall."
+  },
+  {
+    "movie_id": 112,
+    "title": "Magadheera",
+    "genre": "Action|Adventure|Fantasy|Romance",
+    "description": "An epic tale of romance and adventure in a fantastical world."
+  },
+  {
+    "movie_id": 113,
+    "title": "Stunt Squad",
+    "genre": "Action|Crime|Thriller",
+    "description": "An action-packed crime thriller about a special squad taking on dangerous criminals."
+  },
+  {
+    "movie_id": 114,
+    "title": "Lie with Me",
+    "genre": "Drama|Romance",
+    "description": "An intense romantic drama exploring the dynamics of a passionate relationship."
+  },
+  {
+    "movie_id": 115,
+    "title": "Whitewash",
+    "genre": "Drama",
+    "description": "A drama about personal struggles and redemption in a snowy, isolated setting."
+  },
+  {
+    "movie_id": 116,
+    "title": "Storyville",
+    "genre": "Drama|Thriller",
+    "description": "A thriller set in Storyville, where secrets and mysteries unfold."
+  },
+  {
+    "movie_id": 117,
+    "title": "Casa de los babys",
+    "genre": "Drama",
+    "description": "A drama about the emotional journeys of women waiting to adopt babies."
+  },
+  {
+    "movie_id": 118,
+    "title": "C.S.A.: The Confederate States of America",
+    "genre": "Comedy|Drama",
+    "description": "A satirical comedy presenting an alternate history where the Confederacy won."
+  },
+  {
+    "movie_id": 119,
+    "title": "Blind Fury",
+    "genre": "Action|Thriller",
+    "description": "An action-packed thriller about a blind swordsman on a vengeful mission."
+  },
+  {
+    "movie_id": 120,
+    "title": "Thing Called Love, The",
+    "genre": "Comedy|Drama|Romance",
+    "description": "A romantic comedy about aspiring musicians chasing their dreams."
+  },
+  {
+    "movie_id": 121,
+    "title": "Porgy and Bess",
+    "genre": "Drama|Musical|Romance",
+    "description": "A classic musical romance set in the vibrant community of Catfish Row."
+  },
+  {
+    "movie_id": 122,
+    "title": "Handsome Harry",
+    "genre": "Crime|Drama",
+    "description": "A crime drama about a man confronting his past and a mysterious crime."
+  },
+  {
+    "movie_id": 123,
+    "title": "Tales from the Crypt Presents: Demon Knight",
+    "genre": "Horror|Thriller",
+    "description": "A horror-thriller about a battle between good and evil over a powerful relic."
+  },
+  {
+    "movie_id": 124,
+    "title": "Johns",
+    "genre": "Drama",
+    "description": "A gritty drama about the lives of male escorts on the streets."
+  },
+  {
+    "movie_id": 125,
+    "title": "Richard Pryor: Live in Concert",
+    "genre": "Comedy|Documentary",
+    "description": "A hilarious and groundbreaking stand-up performance by Richard Pryor."
+  },
+  {
+    "movie_id": 126,
+    "title": "Midnight Movies: From the Margin to the Mainstream",
+    "genre": "Documentary",
+    "description": "A documentary exploring the phenomenon of cult films and midnight movie screenings."
+  },
+  {
+    "movie_id": 127,
+    "title": "Rebecca",
+    "genre": "Drama|Mystery|Romance|Thriller",
+    "description": "A suspenseful tale of romance and mystery at the Manderley estate."
+  },
+  {
+    "movie_id": 128,
+    "title": "Fade to Black",
+    "genre": "Documentary",
+    "description": "A documentary chronicling the life and career of a renowned entertainer."
+  },
+  {
+    "movie_id": 129,
+    "title": "Last Drop, The",
+    "genre": "Action|Adventure|Crime|War",
+    "description": "An action-packed adventure set during a war, involving a daring heist."
+  },
+  {
+    "movie_id": 130,
+    "title": "Fun and Fancy Free",
+    "genre": "Animation|Children|Musical",
+    "description": "A lighthearted animated musical perfect for children."
+  },
+  {
+    "movie_id": 131,
+    "title": "Edge, The (Kray)",
+    "genre": "Adventure|Drama|Romance",
+    "description": "An adventure-drama about survival and romance in the wilderness."
+  },
+  {
+    "movie_id": 132,
+    "title": "Lathe of Heaven",
+    "genre": "Sci-Fi",
+    "description": "A sci-fi story about a man whose dreams can alter reality."
+  },
+  {
+    "movie_id": 133,
+    "title": "Jack and the Cuckoo-Clock Heart (Jack et la mécanique du coeur)",
+    "genre": "Adventure|Animation|Drama|Fantasy|Musical|Romance",
+    "description": "An animated fantasy about a boy with a cuckoo-clock heart on an adventurous quest."
+  },
+  {
+    "movie_id": 134,
+    "title": "Girl with the Dragon Tattoo, The (Män som hatar kvinnor)",
+    "genre": "Crime|Drama|Mystery|Thriller",
+    "description": "A gripping thriller about a journalist and a hacker uncovering family secrets."
+  },
+  {
+    "movie_id": 135,
+    "title": "Marie Antoinette",
+    "genre": "Drama|Romance",
+    "description": "A lavish drama about the life of the infamous Queen Marie Antoinette."
+  },
+  {
+    "movie_id": 136,
+    "title": "Stonewall Uprising",
+    "genre": "Documentary",
+    "description": "A powerful documentary about the pivotal event in LGBTQ+ rights history."
+  },
+  {
+    "movie_id": 137,
+    "title": "99 River Street",
+    "genre": "Action|Crime|Drama|Film-Noir",
+    "description": "A film-noir action-drama about an ex-boxer caught in a web of crime."
+  },
+  {
+    "movie_id": 138,
+    "title": "Good Old Fashioned Orgy, A",
+    "genre": "Comedy",
+    "description": "A raucous comedy about a group of friends planning an elaborate orgy."
+  },
+  {
+    "movie_id": 139,
+    "title": "Marlene Dietrich: Shadow and Light",
+    "genre": "Documentary",
+    "description": "A documentary exploring the life and career of the iconic Marlene Dietrich."
+  },
+  {
+    "movie_id": 140,
+    "title": "Welcome to the Rileys",
+    "genre": "Drama",
+    "description": "A drama about a grieving couple finding solace in helping a young woman."
+  },
+  {
+    "movie_id": 141,
+    "title": "Run for Cover",
+    "genre": "Western",
+    "description": "A Western about a man wrongly accused of bank robbery seeking justice."
+  },
+  {
+    "movie_id": 142,
+    "title": "All the Light in the Sky",
+    "genre": "Drama",
+    "description": "A drama about an aging actress reflecting on her life and career."
+  },
+  {
+    "movie_id": 143,
+    "title": "Be Cool",
+    "genre": "Comedy|Crime|Musical",
+    "description": "A comedy about the music industry, filled with crime and amusing misadventures."
+  },
+  {
+    "movie_id": 144,
+    "title": "Jesse Stone: Night Passage",
+    "genre": "Crime|Drama|Mystery",
+    "description": "A crime drama about a small-town police chief solving a mysterious case."
+  },
+  {
+    "movie_id": 145,
+    "title": "20 Feet from Stardom",
+    "genre": "Documentary",
+    "description": "A documentary spotlighting the talented backup singers behind major music stars."
+  },
+  {
+    "movie_id": 146,
+    "title": "Dreamcatcher",
+    "genre": "Drama|Horror|Sci-Fi|Thriller",
+    "description": "A sci-fi thriller about friends facing an alien invasion in a winter cabin."
+  },
+  {
+    "movie_id": 147,
+    "title": "At Close Range",
+    "genre": "Crime|Drama",
+    "description": "A drama about a young man drawn into his family's criminal activities."
+  },
+  {
+    "movie_id": 148,
+    "title": "Damsels in Distress",
+    "genre": "Comedy|Romance",
+    "description": "A comedy about a group of women navigating college and romantic entanglements."
+  },
+  {
+    "movie_id": 149,
+    "title": "Phenomenon",
+    "genre": "Drama|Romance",
+    "description": "A touching drama about a man who develops extraordinary abilities."
+  },
+  {
+    "movie_id": 150,
+    "title": "Goodbye Again",
+    "genre": "Drama|Romance",
+    "description": "A romantic drama about the complexities of love and relationships."
+  }
+]
