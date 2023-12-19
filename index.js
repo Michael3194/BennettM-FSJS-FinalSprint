@@ -58,6 +58,9 @@ app.use('/login', loginRouter);
 const signupRouter = require('./routes/signup');
 app.use('/signup', signupRouter);
 
+const searchRouter = require('./routes/search');
+app.use('/search', searchRouter);
+
 // Set up the server
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
