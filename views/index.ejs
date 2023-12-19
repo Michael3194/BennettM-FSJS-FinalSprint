@@ -27,7 +27,27 @@
           <input type="submit" value="Search" />
         </form>
       </div>
-      <% } %>
+      <% } %> <% if (typeof searchResults !== 'undefined') { %>
+      <!-- If searchResults is empty, display a "No results found message" -->
+      <% if (searchResults.length === 0) { %>
+      <div class="no-results">
+        <h3>No results found</h3>
+      </div>
+      <% } else { %>
+      <!-- Else, display the search results -->
+      <div class="search-results">
+        <h3>Search Results:</h3>
+        <ul>
+          <% searchResults.map(result => { %>
+          <li>
+            <h4><%= result.title %></h4>
+            <p><%= result.genre %></p>
+            <p><%= result.description %></p>
+          </li>
+          <% }) %>
+        </ul>
+      </div>
+      <% } %> <% } %>
     </div>
     <%- include('partials/footer.ejs') %>
   </body>
