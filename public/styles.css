@@ -126,3 +126,8 @@ form {
 .search-results {
   margin-bottom: 20px;
 }
+
+.checkbox-option {
+  display: flex;
+  align-items: center;
+}
