@@ -1,10 +1,25 @@
-// Imports
+/* --------------------------------------------------------- */
+/*                         INFORMATION                       */
+/* --------------------------------------------------------- */
+// Project: S3 Final Sprint
+
+// Filename: index.js
+// Description: Main entry point for the app
+// Author: Michael Bennett
+// Last Modified: 2023-11-20
+/* _________________________________________________________ */
+/* _________________________________________________________ */
+
+/* --------------------------------------------------------- */
+/*                      DEPENDENCIES                         */
+/* --------------------------------------------------------- */
 const express = require('express');
 const methodOverride = require('method-override');
 const session = require('express-session');
+/* _________________________________________________________ */
+/* _________________________________________________________ */
 
 const app = express(); // Create the express app
-
 const PORT = 3000; // Set the port for the server
 
 global.DEBUG = true; // Set to true to see console logs for debugging
@@ -39,6 +54,9 @@ app.use((req, res, next) => {
   next();
 });
 
+/* --------------------------------------------------------- */
+/*                          ROUTES                           */
+/* --------------------------------------------------------- */
 // Home route: localhost:3000/  - renders index.ejs
 app.get('/', async (req, res) => {
   if (DEBUG) console.log('GET index route called');
@@ -54,10 +72,15 @@ app.get('/about', async (req, res) => {
 // Logout route - clears the session and redirects to the login page
 app.get('/logout', (req, res) => {
   if (DEBUG) console.log('GET logout route called');
-  req.session.destroy();
+  req.session.destroy(); // Clear the session
   res.redirect('/login');
 });
+/* _________________________________________________________ */
+/* _________________________________________________________ */
 
+/* --------------------------------------------------------- */
+/*                          ROUTERS                          */
+/* --------------------------------------------------------- */
 const loginRouter = require('./routes/login');
 app.use('/login', loginRouter);
 
@@ -66,6 +89,8 @@ app.use('/signup', signupRouter);
 
 const searchRouter = require('./routes/search');
 app.use('/search', searchRouter);
+/* _________________________________________________________ */
+/* _________________________________________________________ */
 
 // Set up the server
 app.listen(PORT, () => {
