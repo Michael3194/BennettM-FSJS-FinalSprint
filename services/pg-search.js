@@ -14,7 +14,9 @@ const search = async (searchString) => {
     } else {
       // Else, log the search results
       if (DEBUG)
-        console.log(`Search successful, results: ${searchResults.rows}`);
+        console.log(
+          `Search successful. ${searchResults.rows.length} results found`
+        );
     }
 
     return searchResults.rows; // Return the search results

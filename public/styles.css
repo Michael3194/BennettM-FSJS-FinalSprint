@@ -131,3 +131,9 @@ form {
   display: flex;
   align-items: center;
 }
+
+.result-item {
+  margin: 6px;
+  padding: 3px;
+  border: 1px solid #000;
+}
