@@ -9,6 +9,11 @@
       <h3 class="flash-welcomeback"><%= messages.success[0] %></h3>
       <% } %>
     </div>
+
+    <% if (error) { %>
+    <div class="alert-error"><%= error %></div>
+    <% } %>
+
     <div class="main-container">
       <% if (!userId) { %>
       <div class="signin-msg">
@@ -60,9 +65,20 @@
         <ul>
           <% searchResults.map(result => { %>
           <li>
-            <h4><%= result.title %></h4>
-            <p><%= result.genre %></p>
-            <p><%= result.description %></p>
+            <div class="result-item">
+              <p>
+                Title: <%- result.title.replace(new RegExp(searchString, 'gi'),
+                '<strong>$&</strong>') %>
+              </p>
+              <p>
+                Genre: <%- result.genre.replace(new RegExp(searchString, 'gi'),
+                '<strong>$&</strong>') %>
+              </p>
+              <p>
+                Description: <%- result.description.replace(new
+                RegExp(searchString, 'gi'), '<strong>$&</strong>') %>
+              </p>
+            </div>
           </li>
           <% }) %>
         </ul>

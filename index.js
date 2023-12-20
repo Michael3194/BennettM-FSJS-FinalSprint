@@ -42,7 +42,7 @@ app.use((req, res, next) => {
 // Home route: localhost:3000/  - renders index.ejs
 app.get('/', async (req, res) => {
   if (DEBUG) console.log('GET index route called');
-  res.render('index', { message: req.flash('success') });
+  res.render('index', { message: req.flash('success'), error: null });
 });
 
 // Logout route - clears the session and redirects to the login page
