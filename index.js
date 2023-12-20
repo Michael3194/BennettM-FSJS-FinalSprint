@@ -45,6 +45,12 @@ app.get('/', async (req, res) => {
   res.render('index', { message: req.flash('success'), error: null });
 });
 
+// About route: localhost:3000/about  - renders about.ejs
+app.get('/about', async (req, res) => {
+  if (DEBUG) console.log('GET about route called');
+  res.render('about');
+});
+
 // Logout route - clears the session and redirects to the login page
 app.get('/logout', (req, res) => {
   if (DEBUG) console.log('GET logout route called');

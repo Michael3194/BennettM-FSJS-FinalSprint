@@ -34,6 +34,7 @@ router.post('/', async (req, res) => {
 
   // Save the user's ID to the session
   req.session.userId = user.login_id;
+  req.session.username = user.username;
 
   if (DEBUG) console.log(`User ${user.username} logged in`);
 

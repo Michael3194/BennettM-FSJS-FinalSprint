@@ -9,7 +9,9 @@ router.get('/', async (req, res) => {
   try {
     // Get the search string and database options from the query string
     const searchString = req.query.searchString;
+    const username = req.session.username;
     const databases = req.query.database;
+    console.log('username: ' + req.session.username);
 
     // If databases is undefined, the user did not select any database options
     if (!databases) {
@@ -29,10 +31,10 @@ router.get('/', async (req, res) => {
         );
 
       // Perform search using both databases
-      const pgResults = await pgSearch(searchString);
+      const pgResults = await pgSearch(searchString, username);
       if (DEBUG) console.log('Search on PostgreSQL database successful');
 
-      const mongoResults = await mongoSearch(searchString);
+      const mongoResults = await mongoSearch(searchString, username);
       if (DEBUG) console.log('Search on MongoDB database successful');
 
       // Combine the results from both databases into one array
@@ -45,7 +47,7 @@ router.get('/', async (req, res) => {
           );
 
         // Perform search using PostgreSQL database
-        searchResults = await pgSearch(searchString);
+        searchResults = await pgSearch(searchString, username);
       } else if (databases === 'mongodb') {
         if (DEBUG)
           console.log(
@@ -53,7 +55,7 @@ router.get('/', async (req, res) => {
           );
 
         // Perform search using MongoDB database
-        searchResults = await mongoSearch(searchString);
+        searchResults = await mongoSearch(searchString, username);
       }
     }
 
