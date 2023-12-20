@@ -1,8 +1,28 @@
+/* --------------------------------------------------------- */
+/*                         INFORMATION                       */
+/* --------------------------------------------------------- */
+// Filename: search.js
+// Description: Server-side route to handle search form submission
+// Author: Michael Bennett
+// Last Modified: 2023-11-20
+/* _________________________________________________________ */
+/* _________________________________________________________ */
+
+/* --------------------------------------------------------- */
+/*                      DEPENDENCIES                         */
+/* --------------------------------------------------------- */
 const express = require('express');
 const router = express.Router();
+
 const { search: pgSearch } = require('../services/pg-search');
 const { search: mongoSearch } = require('../services/mongo-search');
+/* _________________________________________________________ */
+/* _________________________________________________________ */
 
+/* --------------------------------------------------------- */
+/*                          ROUTES                           */
+/* --------------------------------------------------------- */
+// Handles the search form submission
 router.get('/', async (req, res) => {
   if (DEBUG) console.log('GET search route called');
 
@@ -71,5 +91,7 @@ router.get('/', async (req, res) => {
     });
   }
 });
+/* _________________________________________________________ */
+/* _________________________________________________________ */
 
 module.exports = router;

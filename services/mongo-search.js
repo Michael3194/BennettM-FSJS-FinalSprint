@@ -1,5 +1,25 @@
+/* --------------------------------------------------------- */
+/*                         INFORMATION                       */
+/* --------------------------------------------------------- */
+// Filename: mongo-search.js
+// Description: Contains the code to perform a search on the MongoDB database
+// Author: Michael Bennett
+// Last Modified: 2023-11-20
+/* _________________________________________________________ */
+/* _________________________________________________________ */
+
+// Import the connect function from the mongo-database.js file
 const { connect } = require('./mongo-database');
 
+/* --------------------------------------------------------- */
+/*                    Function: search()                     */
+/* --------------------------------------------------------- */
+/* Description: An async function that performs a search on  */
+/*              the MongoDB database.                        */
+/*                                                           */
+/* Parameter(s): searchString - The string to search for     */
+/*               in the database                             */
+/* --------------------------------------------------------- */
 const search = async (searchString) => {
   if (DEBUG)
     console.log('mongodb search() function called from mongo-search.js');
@@ -32,6 +52,8 @@ const search = async (searchString) => {
   } finally {
     await client.close();
   }
-};
+}; // End of search() function
+/* _________________________________________________________ */
+/* _________________________________________________________ */
 
 module.exports = { search };
